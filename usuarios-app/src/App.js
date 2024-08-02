@@ -15,7 +15,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Aplicación de Usuarios</h1>
+      <h1>Agencia de Detectives Shadow</h1>
+      <h2>Base de datos confidencial de personas de interés</h2>
       <div className="botones-vista">
         <button onClick={() => setVistaActual('tabla')}>Tabla</button>
         <button onClick={() => setVistaActual('tarjetas')}>Tarjetas</button>

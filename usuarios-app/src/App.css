@@ -1,6 +1,35 @@
+body {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .App {
   text-align: center;
   padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.App-header {
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,255,0,0.1);
+}
+
+.App-header h1 {
+  margin: 0;
+  color: #00ff00;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.App-header p {
+  margin: 10px 0 0;
+  font-style: italic;
+  color: #888;
 }
 
 .botones-vista {
@@ -12,16 +41,35 @@
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  background-color: #333;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.botones-vista button:hover {
+  background-color: #00ff00;
+  color: #333;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
+  background-color: #2c2c2c;
+  box-shadow: 0 0 10px rgba(0,255,0,0.1);
 }
 
 th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
+  border: 1px solid #444;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: #00ff00;
+  text-transform: uppercase;
 }
 
 .tarjetas-container {
@@ -31,11 +79,34 @@ th, td {
 }
 
 .tarjeta {
-  border: 1px solid #ddd;
+  background-color: #2c2c2c;
+  border: 1px solid #444;
   border-radius: 8px;
   padding: 16px;
   margin: 10px;
-  width: 200px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,255,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,0,0.2);
+}
+
+.tarjeta h3 {
+  color: #00ff00;
+  margin-top: 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #333;
+  border: 1px solid #00ff00;
+  color: #e0e0e0;
+  border-radius: 5px;
 }
 
 @media (max-width: 600px) {

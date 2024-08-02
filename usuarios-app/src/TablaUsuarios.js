@@ -13,7 +13,7 @@ function TablaUsuarios({ usuarios }) {
     <div>
       <input
         type="text"
-        placeholder="Filtrar por nombre, email o ciudad"
+        placeholder="Buscar sospechoso por nombre, email o ciudad"
         value={filtro}
         onChange={(e) => setFiltro(e.target.value)}
       />
