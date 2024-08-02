@@ -33,7 +33,7 @@ Antes de instalar, asegúrate de tener instalado en tu sistema:
 Sigue estos pasos para instalar y ejecutar el programa:
 
 1. Clona el repositorio: https://github.com/SehrGuto/usuarios-app.git
-2. Navega al directorio del proyecto:cd agencia-detectives-shadow
+2. Navega al directorio del proyecto:cd usuarios-app
 3. Instala las dependencias: npm install
 4. Inicia la aplicación: npm start
 5. Abre tu navegador y visita `http://localhost:3000`(si es que no se abre automaticamente)
